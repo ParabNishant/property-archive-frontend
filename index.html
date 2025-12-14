@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Archive Portal Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header id="main-header">
+        <div class="header-content">
+            <a href="index.html" class="portal-logo" id="logo-link">
+                <i class="fas fa-landmark logo-icon"></i>
+                <h1>Property Archive</h1>
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#register">Register / Sign Up</a></li>
+                    <li><a href="#categories-section">Explore</a></li>
+                    <li><a href="#search-area">Search</a></li>
+                    <li><a href="#about-us-section">About Us</a></li>
+                    <li><a href="#contact-us-section">Contact Us</a></li>
+                </ul>
+
+                <div class="accessibility-tools">
+                    <button id="font-increase-btn" title="Increase Font Size">A+</button>
+                    <button id="theme-toggle" title="Toggle Light/Dark Mode">
+                        <i class="fas fa-moon" id="theme-icon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero-slider" class="slider-container">
+        <div class="slide"> 
+            <img src="images/image1.jpg" alt="Property View 1">
+            <div class="slide-caption">Explore Historical Records</div>
+        </div>
+        <div class="slide">
+            <img src="images/image2.jpg" alt="Survey Map">
+            <div class="slide-caption">Verify Official Documents</div>
+        </div>
+        <div class="slide">
+            <img src="images/image3.jpg" alt="Cityscape">
+            <div class="slide-caption">Data from Across the Region</div>
+        </div>
+    </section>
+
+    <section id="search-area" class="content-section">
+        <div class="container">
+            <h2>Welcome to the Digital Archive</h2>
+            <p class="welcome-message">
+                Your trusted source for property and survey records. Upload, search, and verify documents instantly.
+            </p>
+
+            <div class="search-form-group">
+                <input type="text" placeholder="Search by document ID, name, or location...">
+                <button class="primary-btn"><i class="fas fa-search"></i> Search</button>
+                <a href="#" class="advanced-link">Advanced Search Options</a>
+            </div>
+
+            <div class="upload-feature">
+                <p>Ready to archive your documents?</p>
+                <button class="secondary-btn" onclick="alert('File upload simulated! Document received for processing.')">
+                    <i class="fas fa-upload"></i> Upload Documents
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="categories-section" class="content-section"></section> 
+    <section id="about-us-section" class="content-section" style="padding: 20px; text-align: left; max-width: 900px; margin: 0 auto;">
+        <h2>About Our Portal</h2>
+        <p>This digital archive provides verified and secure access to property and land survey records. Our mission is to modernize public record management, ensuring transparency and efficiency in all official transactions.</p>
+    </section>
+
+    <footer id="contact-us-section">
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h4>Property Archive</h4>
+                <p><i class="fas fa-envelope"></i> info@archive.com</p>
+                <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#about-us-section">About Us</a>
+                <a href="#contact-us-section">Contact Us</a>
+                <a href="#categories-section">Explore</a>
+            </div>
+            <div class="footer-legal">
+                <h4>Legal</h4>
+                <a href="#">Disclaimer</a>
+                <a href="#">Cancellation Policy</a>
+                <a href="#">Return/Refund</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Property Archive Portal. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
